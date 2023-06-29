@@ -1,0 +1,22 @@
+.backgroundGradient {
+   img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.backgroundCardContainer {
+  position: relative;
+//   overflow: hidden;
+  z-index: 0;
+}
+
+.blankCardImage{
+    position: absolute;
+    z-index: 10;
+    right: 5%;
+    top: 15%;
+    max-height: 40%;
+   
+}
+
